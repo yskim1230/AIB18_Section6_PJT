@@ -34,6 +34,7 @@
 * 사용자들이 여행하고자 하는 목적지에 대한 항공권, 숙박비용 정보를 최대한 간단한 작업으로 대략적인 정보를 제공해주는게 목적
 * 8월 왕복 항공권 정보, 방문지역 숙박 정보, 관광지 비용 등을 웹 스크래핑을 통해 데이터 수집
 * 수집된 데이터를 토대로 가설 설정 및 시각화
+* Streamlit을 통한 웹 서비스 구현
 * 8월 항공권 가격을 토대로 가격예측 모델 제시
 
 ## 프로젝트 기술스택
@@ -63,6 +64,41 @@
 
 
 ## 프로젝트 구현내용
+### 1.데이터 크롤링 
+#### (1) 항공권
+<img width="986" alt="항공권 크롤링1" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/985611b3-07a6-49d1-8892-ff8a9dd234c8">
+<img width="1045" alt="항공권크롤링2" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/9280d7cf-a0cb-4663-96dc-49e39946fa09">
+
+#### (2) 호텔정보
+<img width="999" alt="호텔크롤링" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/7fc71170-870c-4bf6-9d1c-22d24ca19853">
+
+### 2. Pandas를 이용하여 데이터 정제 및 csv 파일로 변환
+<img width="835" alt="EDA완료" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/c70f31d6-328d-4419-a8af-f8f7810c68ed">
+
+
+### 3. 데이터 적재
+#### (1) AWS에 Mysql 구축
+<img width="1457" alt="aws" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/ebe6f657-36d1-4bd4-81c2-8aa39dd93521">
+
+#### (2) Mysql에 데이터 업로드
+<img width="940" alt="DB적재" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/d21262bc-cf9b-4eae-97f8-cfededc05bf5">
+
+### 4. StreamLit 을 이용한 서비스 구현
+
+<img width="728" alt="서비스구현1" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/1a31e188-f300-48a5-989b-dd06bdd4d9fa">
+
+<img width="732" alt="서비스구현2" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/655aede9-66f4-4af5-bbf5-1ce2819d9cc5">
+
+<img width="736" alt="서비스구현3" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/3fa5bcc2-9e07-4d25-b0b1-631e104ff22f">
+
+<img width="725" alt="서비스구현4" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/82a76579-27ba-4194-834e-9ffdb55e002d">
+
+<img width="703" alt="서비스구현5" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/af61567a-8a35-4b77-8fff-c5d6a7980aea">
+
+<img width="723" alt="서비스구현6" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/612f59b1-4061-4970-9277-572fc019dc21">
+
+
+------------------------------
 
 ## 프로젝트 한계 및 개선방안
 
