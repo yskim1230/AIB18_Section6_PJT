@@ -58,7 +58,8 @@ with tabs[0]: #서비스탭#
 
     # 출국날짜/귀국날짜 탭 생성
 
-    min_date = date.today()
+    #min_date = date.today()
+    min_date = date(2023, 8, 1)
     max_date = date(2023, 8, 31)
 
     # 출발 날짜의 기본값을 8월 1일로 설정
