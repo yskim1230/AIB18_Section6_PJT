@@ -85,16 +85,19 @@
 
 ### 4. StreamLit 을 이용한 서비스 구현
 
+#### (1) 왕복항공권 추천, 호텔 추천 서비스
 <img width="728" alt="서비스구현1" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/1a31e188-f300-48a5-989b-dd06bdd4d9fa">
 
 <img width="732" alt="서비스구현2" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/655aede9-66f4-4af5-bbf5-1ce2819d9cc5">
 
 <img width="736" alt="서비스구현3" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/3fa5bcc2-9e07-4d25-b0b1-631e104ff22f">
 
+#### (2) 결과 조회 서비스
 <img width="725" alt="서비스구현4" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/82a76579-27ba-4194-834e-9ffdb55e002d">
 
 <img width="703" alt="서비스구현5" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/af61567a-8a35-4b77-8fff-c5d6a7980aea">
 
+#### (3) 8월 항공권 가격예측 서비스
 <img width="723" alt="서비스구현6" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/612f59b1-4061-4970-9277-572fc019dc21">
 
 
