@@ -84,6 +84,10 @@
 ### (2) Mysql에 데이터 업로드
 <img width="940" alt="DB적재" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/d21262bc-cf9b-4eae-97f8-cfededc05bf5">
 
+### (3) 프론트(StreamLit)에서 Full Scan 조회하던 기능을 Mysql 프로시져에서 수행하도록 변경하여 속도 개선작업 진행
+<img width="1029" alt="image" src="https://github.com/yskim1230/AIB18_Section6_PJT/assets/124799967/2d6476e5-cd5e-40bb-ae7d-c04d76c1b02c">
+
+
 ## 4. StreamLit 을 이용한 서비스 구현
 
 ### (1) 왕복항공권 추천, 호텔 추천 서비스
